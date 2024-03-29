@@ -10,7 +10,7 @@ app.use(cors);
 dotenv.config();
 
 mongoose.connect(process.env.MONGO).then(()=>{
-    console.log("Coonected to mongodb")
+    console.log("Connected to mongodb")
 }).catch((error)=>{
     console.log(error)
 })
