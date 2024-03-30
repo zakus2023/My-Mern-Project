@@ -4,8 +4,9 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Pages/Home'
 import About from './Pages/About'
-import SighnUp from './Pages/SignUp'
+import SignUp from './Pages/SignUp'
 import Profile from './Pages/Profile'
+import SignIn from './Pages/SignIn'
 
 export default function App() {
   return (
@@ -14,8 +15,8 @@ export default function App() {
    <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/About' element={<About/>}/>
-    <Route path='/signup' element={<SighnUp/>}/>
-    <Route path='/signin' element={<SighnUp/>}/>
+    <Route path='/signup' element={<SignUp/>}/>
+    <Route path='/signin' element={<SignIn/>}/>
     <Route path='/profile' element={<Profile/>}/>
    </Routes>
    <Footer/>
